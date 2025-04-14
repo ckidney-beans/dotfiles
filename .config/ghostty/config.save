@@ -42,33 +42,25 @@
 # # Just for example:
 # resize-overlay-duration = 4s 200ms
 
-background-opacity = 0.8
-background-blur = true
+background-opacity = 0.2
 background-blur-radius = 15
 font-family = Hack Nerd Font
 theme = catppuccin-mocha
 
-gtk-titlebar = false
+#gtk-titlebar = false
 
 confirm-close-surface = false
 window-decoration = true
 window-padding-x = 10
 window-padding-y = 10
 window-padding-balance = true
-window-padding-color = extend
 
-keybind = control+shift+h=new_split:left
-keybind = control+shift+j=new_split:down
-keybind = control+shift+k=new_split:up
-keybind = control+shift+l=new_split:right
-
+keybind = control+shift+h=goto_split:left
+keybind = control+shift+j=goto_split:down
+keybind = control+shift+k=goto_split:up
+keybind = control+shift+l=goto_split:right
 keybind = control+shift+e=new_tab
+keybind = control+shift+d=new_split:down
 
-keybind = control+h=goto_split:left
-keybind = control+j=goto_split:down
-keybind = control+k=goto_split:up
-keybind = control+l=goto_split:right
-#keybind = control+w=close_split
+fullscreen
 
-window-height = 50
-window-width = 161
